@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    /* background-image: url(https://amtshows.com/wp-content/uploads/2013/09/music-and-movies-movie-film-music-notes-in-background.jpg); */
+    background-image: url(movie_background2.jpg);
+    background-repeat: repeat;
+    background-size: 100vw 100vw;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+.movie {
+    /* border: solid red 7px; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* hr {
+    border-width: 2px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+} */
+
+.wrapper
+{
+	padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 30px;
+	height: 5px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 3px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+/* img {
+    size: 3em;
+} */
+
+.responsive {
+    width: 25vw;
+    height: auto;
+}
